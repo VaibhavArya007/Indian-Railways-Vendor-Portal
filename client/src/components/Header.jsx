@@ -38,10 +38,10 @@ export default function Header() {
             className=" hidden lg:inline h-12 mr-5 ml-5"
           />
           <Link to="/">
-            <span className="text-blue-100 font-bold  ml-10 hover:scale-105 hover:text-blue-200 transform transition duration-200 ease-linear">
+           <span className="text-blue-100 font-bold  ml-10 hover:scale-105 hover:text-blue-200 transform transition duration-200 ease-linear hidden sm:inline">
               Indian
             </span>
-            <span className="text-blue-200 font-bold"> | </span>
+            <span className="text-blue-200 font-bold hidden sm:inline"> | </span>
             <span className="text-blue-100 font-bold hover:scale-105 hover:text-blue-200 transform transition duration-200 ease-linear">
               Railways
             </span>
